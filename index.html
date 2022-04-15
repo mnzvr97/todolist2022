@@ -18,9 +18,32 @@
                 <input
                 type="submit"
                 id="new-goal-input"
-                placeholder="Please input your goals here" />
+                placeholder="add goals" />
             
         </form>
     </header>
+    <main>
+        <section class="goal-list">
+            <h2>Goals</h2>
+
+            <div id="goals">
+                <div class="goal">
+                    <div class="content">
+                        <input  
+                            type="text"
+                            class="text"
+                            value="learn node.js"
+                            readonly
+                        />
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
+            </div> 
+        </section>
+    </main>
+    <script src="main.js"></script>
 </body>
 </html>
